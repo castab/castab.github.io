@@ -1,0 +1,21 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4" ng-bind="vm.currentProject.project_name"></h1>
+    <p class="lead" ng-bind="vm.currentProject.project_description"></p>
+  </div>
+</div>
+
+<div class="container" ng-repeat="section in vm.currentProject.project_content">
+  <div class="card-deck" style="margin-bottom: 25px;">
+      <div ng-repeat="content in section" class="card mb-6 shadow-sm">
+        <img class="card-img-top" ng-src="{{content.image}}">
+        <div class="card-body">
+          <h2 class="card-title" ng-bind="content.title"></h2>
+          <div class="embed-responsive embed-responsive-16by9" ng-if="content.youtube_url">
+            <iframe class="embed-responsive-item" ng-src="{{content.youtube_url | trustUrl}}"></iframe>
+          </div>
+          <p class="card-text" ng-repeat="paragraph in content.text" ng-bind="paragraph"></p>
+        </div>
+      </div>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+<div ng-repeat="currentOrPreviousProjects in vm.projectData" class="{{vm.introSlide;}}">
+    <div class="jumbotron jumbotron-fluid" style="color:#263238;">
+        <div class="container">
+            <h1 class="display-4" ng-bind="currentOrPreviousProjects.title"></h1>
+            <p class="lead" ng-bind="currentOrPreviousProjects.description"></p>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div ng-cloak ng-repeat="project in currentOrPreviousProjects.projects" class="col-sm-12 col-md-6 col-lg-4 col-xl-4" style="margin-bottom:5px;">
+                    <div class="card mb-4 shadow-sm" ng-click="vm.changePage(project);">
+                        <img class="card-img-top" ng-src="{{project.project_card_image_url}}">
+                        <div class="card-body">
+                        <h6 class="card-title d-flex flex-row justify-content-between align-items-start">
+                            <p ng-bind="project.project_name"></p>
+                            <i class="{{project.project_icon}}" style="font-size:1.8em;"></i>
+                        </h6>
+                        <p class="card-text" ng-bind="project.project_description"></p>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>

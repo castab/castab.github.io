@@ -1,0 +1,377 @@
+{
+      "projects": {
+          "current": {
+            "title": "Current Projects",
+            "description": "My active interests and activities.",
+            "projects": [
+              {
+                  "project_name": "Addressable High-Power RGBLEDs",
+                  "project_icon": "fas fa-sun",
+                  "project_card_image_url": "./images/ledstrip.jpg",
+                  "project_description": "Scaling the addressability of LEDs to their high-powered versions.",
+                  "route": "rgbleds",
+                  "project_content": {
+                    "section1": [
+                      {
+                        "image": "./images/schematic.jpg",
+                        "title": "Eureka Moment!",
+                        "text": {
+                          "paragraph1": "Interestingly enough, the inspiration for this project came to me during a gathering with some of my colleagues. I remember watching the various decorations and colors... It occurred to me that I could use a MOSFET to control the current flow of a higher voltage source using a low voltage PWM signal. The idea was just too good to let go from my mind so I scribbled notes on one of the napkins!"
+                        }
+                      },
+                      {
+                        "image": "https://cdn-shop.adafruit.com/1200x900/2561-00.jpg",
+                        "title": "WS2811 Addressable LEDs",
+                        "text": {
+                          "paragraph1": "The concept of addressable LEDs was still a brand new idea that became cheap enough to reach consumers. Shortly after my involvement with the Wild West Shootout Game, I just couldn't get enough of these things and thought to myself, what if the same idea was applied to 10-, 30-, 50-, or even 100-watt LEDs? So, using a little circuit know-how, I prototyped a controllable 50-watt RGB LED."
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "project_name": "Front-End Development using Modern Frameworks",
+                  "project_icon": "fab fa-angular",
+                  "project_card_image_url": "./images/frontend.jpg",
+                  "project_description": "Using dynamic web pages to deliver full-featured services, turning data into digestible information.",
+                  "route": "webdev",
+                  "project_content": {
+                    "section1": [
+                      {
+                        "title": "The Beginnings",
+                        "text": {
+                          "paragraph1": "My very first experience with any kind of web development came from tinkering around with the ESP8266 WiFi-enabled microcontroller. Before I knew what APIs were (much less, write an API), my default interface with the microcontroller was a very simple website that included a simple dialog and a drop-down box that would turn one of its IO pins HIGH or LOW; triggering an attached relay.",
+                          "paragraph2": "Fast-forwarding to a crazy summer, I stumbled upon Lynda.com and found a beginner's course on PHP! By the end of the summer, I was taken back with what could be done with a little bit of server-side processing and some persistant storage such as SQL.",
+                          "paragraph3": "Over time, I picked up a good chunk of HTML and CSS, but I would have to say that my biggest leap was my internship with Target. Throughout my internship, I picked up AngularJS and I couldn't believe how far behind I was with respect to data/session binding. To drive this further, AngularJS isn't even one of the most recent frameworks!"
+                        }
+                      }
+                    ],
+                    "section2": [
+                      {
+                        "title": "Student of the Web",
+                        "text": {
+                          "paragraph1": "I've always wondered how some websites just make their websites look just so outstandingly good! All I needed was a little push to see that it really is some heavy CSS'ing with JavaScript handling the reigns. Aside from this website, you can check out some of my other work:"
+                        }
+                      }
+                    ],
+                    "section3": [
+                      {
+                        "image": "./images/web3.jpg",
+                        "text": [
+                          "A website for my Dad's trucking company."
+                        ]
+                      },
+                      {
+                        "image": "./images/web2.jpg",
+                        "text": [
+                          "Using PHP as an endpoint to feed this website current weather information."
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "project_name": "IoT: Remote Power Switch using ESP Microprocessor",
+                  "project_icon": "fas fa-wifi",
+                  "project_card_image_url": "./images/iot.jpg",
+                  "project_description": "Using a Quarter-sized microprocessor to power my desk lamp from any other internet-connected device.",
+                  "route": "iot",
+                  "project_content": {
+                    "section1": [
+                      {
+                        "image": "",
+                        "title": "Coming Soon",
+                        "text": {
+                          "paragraph1": "Check back later."
+                        }
+                      },
+                      {
+                        "image": "./images/iot1.jpg",
+                        "text": [
+                          "About as small as a quarter, the ESP8266 packs onboard WiFi and both a faster processor and more memory than most Arduino boards."
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "project_name": "Call Log Management Center using PHP & MySQL",
+                  "project_icon": "fas fa-database",
+                  "project_card_image_url": "./images/phpsql.png",
+                  "project_description": "My very first foray into data-driven web-design, without JavaScript!",
+                  "route": "clmc",
+                  "project_content": {
+                    "section1": [
+                      {
+                        "image": "",
+                        "title": "Why?",
+                        "text": {
+                          "paragraph1": "I had always wanted to build my own website but never really had much reason to until I was approached by a local business to fix a slow database based off of Microsoft Access. In response to their slow database, I opted to build a new database using that would use SQL on the back-end and be presented to the user as a webpage. The advantage of this is that the users no longer had to use a specific computer and were able to enter and view data using any computer on the local intranet, and if desired, from the internet. From this, I ended up picking PHP, SQL, and some CSS to add to my repertoire."
+                        }
+                      },
+                      {
+                        "image": "",
+                        "title": "PHP & SQL",
+                        "text": {
+                          "paragraph1": "Data manipulation was made possible with the persistance that PHP can carry across browser windows during a user's session. Without PHP, I wouldn't have been able to implement a strong input validation system. A strong input validation system is necessary because the entries must go in correctly so that they may be sorted and displayed correctly. Another important factor was the elimination of SQL injection. Input validation was the most difficult part of the design, but proved well because it ensured a correct entry and a way for users to correct their inputs.",
+                          "paragraph2": "The combination of PHP and SQL made it possible to implement a strong user/password login system so that entries may be logged by user as well. With PHP's built in hashing functions, a user's hashed password can be securely stored on the database without exposing the password itself and used again to verify a match for future logins."
+                        }
+                      }
+                    ],
+                    "section2": [
+                      {
+                        "image": "./images/clmc1.jpg",
+                        "title": "",
+                        "text": {
+                          "paragraph1": "Login landing page."
+                        }
+                      },
+                      {
+                        "image": "./images/clmc2.jpg",
+                        "title": "",
+                        "text": {
+                          "paragraph1": "What's my password again?"
+                        }
+                      }
+                    ],
+                    "section3": [
+                      {
+                        "image": "./images/clmc3.jpg",
+                        "title": "",
+                        "text": {
+                          "paragraph1": "After logging in, the menu changes to reflect read/write privileges."
+                        }
+                      },
+                      {
+                        "image": "./images/clmc4.jpg",
+                        "title": "",
+                        "text": {
+                          "paragraph1": "A table view of recent entries. Clicking on an entry's date takes you to an edit form for that entry."
+                        }
+                      }
+                    ],
+                    "section4": [
+                      {
+                        "image": "./images/clmc5.jpg",
+                        "title": "",
+                        "text": {
+                          "paragraph1": "An edit form for an entry."
+                        }
+                      },
+                      {
+                        "image": "./images/clmc6.jpg",
+                        "title": "",
+                        "text": {
+                          "paragraph1": "HTML5 helps with some form validation but the input is still validated right before entering storage."
+                        }
+                      }
+                    ],
+                    "section5": [
+                      {
+                        "image": "./images/clmc7.jpg",
+                        "title": "",
+                        "text": {
+                          "paragraph1": "A peek into the code.  Over security concern, this project will not be published for public view since it is live and in use.  Although, I'm completely open to talking about it in person!"
+                        }
+                      }
+                    ]
+                  }
+                }
+            ]
+          },
+          "past": {
+            "title": "Past Projects",
+            "description": "A look at some of my older work.",
+            "projects": [
+              {
+                "project_name": "SLAM Drone using Image Processing",
+                "project_icon": "fas fa-helicopter",
+                "project_card_image_url": "./images/slam.jpg",
+                "project_description": "Senior Project 2018, California State University - Fresno",
+                "route": "slam",
+                "project_content": {
+                  "section1": [
+                    {
+                      "image": "",
+                      "title": "Introduction",
+                      "text": {
+                        "paragraph1": "As our senior design project, our group chose to go with using a SLAM algorithm and putting it onto a drone. From there, deep learning is implemented so that it may navigate with a sense of 'intuition' and make a best-case decision based on training data.",
+                        "paragraph2": "This project was the culmination of the education we have received throughout our time at California State University, Fresno and was presented for Fresno State Projects Day 2018 in May."
+                      }
+                    }
+                  ],
+                  "section2": [
+                    {
+                      "image": "",
+                      "title": "Synopsis",
+                      "text": {
+                        "paragraph1": "Our group has been in the making for some time now - we all like drones, computers, and automation. We figured we can put a lot of these together by putting it all in a neat package that would integrate drones, navigation, and machine/deep learning. We want this project not to be too easy as to complete in a short amount of time but also not too hard that it's just not feasible. After attending to a Drone Conference in Las Vegas and watching presentation, we set our minds on creating something similar.",
+                        "paragraph2": "Taking Jetson's super-computing abilities and coupling them with Intel's RealSense, we would like to create a fully autonomous drone that can operate in given environment while mapping it's location at the same time. We'd like to start in 2D, using a ground-based rover and then add a dimension by using a flying drone.",
+                        "paragraph3": "It was a year long project that wrapped up our education as undergraduate students that goes further than just putting a couple of sensors together and calling it a day. It was a culmination of all of our skills, united to create something amazing."
+                      }
+                    }
+                  ],
+                  "section3": [
+                    {
+                      "image": "",
+                      "title": "",
+                      "youtube_url": "https://www.youtube.com/embed/03r56SdhQwA",
+                      "text": {
+                        "paragraph1": "Presentation video for display during Projects Day for Fresno State Lyle's College of Engineering."
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "project_name": "Wild West Shootout Game using PIC Microcontroller and LED Strip",
+                "project_icon": "fas fa-laptop-code",
+                "project_card_image_url": "./images/microchip.jpg",
+                "project_description": "Making a fun game using an LED Strip and a few microcontrollers.",
+                "route": "wildwest",
+                "project_content": {
+                  "section1": [
+                    {
+                      "image": "",
+                      "title": "Welcome to the Wild West!",
+                      "text": {
+                        "paragraph1": "Back in Spring of 2015, a group of 2 colleagues and I were tasked to make a project out of a PIC microcontroller. At the time, addressable LEDs where relatively new along with the ESP8266 WiFi-enabled microcontroller. We thought amongst ourselves and decided, why not make a game out of this? It took a while to do all of this and I'm more than glad that I paired up with Adam and Nick - we all carried the same passion for this project.",
+                        "paragraph2": "After a some hundreds of lines of code in assembly (our 56 page report was roughly 44 pages of code), we successfully demonstrated a fun game in which two players would 'face off' and whoever 'shot' first would win."
+                      }
+                    },
+                    {
+                      "image": "",
+                      "title": "",
+                      "youtube_url": "https://www.youtube.com/embed/QqMgE-rRKb4?start=295",
+                      "text": {
+                        "paragraph1": "Sit back and enjoy a feature presentation."
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "project_name": "DC Isolated Bluetooth Audio Adapter",
+                "project_icon": "fab fa-bluetooth-b",
+                "project_card_image_url": "./images/bluetooth.jpg",
+                "project_description": "A technology upgrade from using wired auxiliary to the convenience of Bluetooth.",
+                "route": "bluetooth",
+                "project_content": {
+                  "section1": [
+                    {
+                      "image": "",
+                      "title": "Much Needed Bluetooth Upgrades",
+                      "text": {
+                        "paragraph1": "This project came about when I decided to install a Bluetooth module into my car. After using an auxiliary audio cord for so long, I wanted to make the jump to the convenience of Bluetooth. I particularly enjoyed using my current head-unit as it offered great sound and very reasonable power, so I didn't want to swap it out since the only extra feature I wanted was wireless audio.",
+                        "paragraph2": "After installing the Bluetooth adapter and powering it with the car's 12v power, there was an audible hum whenever it was used. Using a volt-meter, I found some stray voltage between audio ground and the 12v supply ground: A classic ground-loop. I tried to alleviate the ground-loop that was present in the system by using audio isolators (AKA, some mini-transformers) but was not happy with the result because the audio reaching the head-unit was noticeably muted. It sounded like the music was being played over a low-quality stream.",
+                        "paragraph3": "Unsatisfied with both approaches, I integrated a relay system that would disconnect the bluetooth adapter from the car's 12v power when the car is turned on and switch over to it's own battery supply. This isolation lets the Bluetooth module exchange the audio signal without the worry of a ground-loop or the use of audio isolators.",
+                        "paragraph4": "When the keys are in the off position, the relay system switches back over to connect the car's 12v power so that a charge controller recharges the lithium battery pack. This method also gave me a way to turn the module on/off with the car so that it connects/disconnects from my phone when appropriate."
+                      }
+                    },
+                    {
+                      "image": "",
+                      "title": "Results",
+                      "text": {
+                        "paragraph1": "This enhancement has led to many years of wireless audio enjoyment!  Although not in immediate sights, I would like to design a dedicated circuit board and move away from using a dedicated battery solely for this system - I had no idea 5v to 5v isolated DC supplies in the form of a through-hole component existed when I was working on this project."
+                      }
+                    }
+                  ],
+                  "section2": [
+                    {
+                      "image": "./images/bt1.jpg",
+                      "text": [
+                        "Prototype build to see if I can trigger on/off using the car's ignition trigger."
+                      ]
+                    },
+                    {
+                      "image": "./images/bt4.jpg",
+                      "text": [
+                        "Well, it worked up until it gave off some 'magic' smoke."
+                      ]
+                    },
+                    {
+                      "image": "./images/bt3.jpg",
+                      "text": [
+                        "Evolution into a relay + battery system with attached battery protection and charging board."
+                      ]
+                    }
+                  ],
+                  "section3": [
+                    {
+                      "image": "./images/bt2.jpg",
+                      "title": "",
+                      "text": [
+                        "Complete with a 4-channel relay for future additions."
+                      ]
+                    }
+                  ]
+                }
+              }
+          ]
+        },
+        "about_me": {
+          "title": "About Me",
+          "description": "Putting a face behind the ideas.",
+          "projects": [
+            {
+              "project_name": "Brayan Castaneda",
+              "project_icon": "fas fa-user",
+              "project_card_image_url": "./images/aboutMe.jpg",
+              "project_description": "A curious recent undergrad with a keen interest in full-stack development.",
+              "route": "aboutme",
+              "project_content": {
+                "section1": [
+                  {
+                    "image": "./images/aboutMe.jpg",
+                    "text" : [
+                      "Spending the summer with Target in Minneapolis, Minnesota."
+                    ]
+                  }
+                ],
+                "section2": [
+                  {
+                    "title": "Why Engineering?",
+                    "text": [
+                      "I've worked retail for most of my working life and have come to find it unfulfilling. Yeah, it paid the bills and was relatively easy, but offered no real goal for me. I'm not talking about rising through management - I'm talking about growing intellectually and consciously. I enjoyed the company of my co-workers but after some time, the work became repetitive and always came to the bottom line. Don't get me wrong, the bottom line is important, but I feel like I had talents that I could put to much better use. I had my hobbies and have tried majoring in IT before, but now it was time to make good on my passion in my hobbies and get an Engineering degree.",
+                      "Only in these recent years, I've come to realize how blind I was to how the physical world works; I just can't believe how a couple years in school changed how I see and understand things! My biggest leap into enlightenment was the Fourier Transform and the power it possesses and seemingly endless applications. I could go on and on about the Fourier Transform as well as its close mathematical functions: the Laplace Transform and Z-Transform... but maybe for another time.",
+                      "Anyways... Fast forward a few years at California State University, Fresno, and I come out with a degree in Electrical Engineering with a minor in Computer Engineering! "
+                    ]
+                  }
+                ],
+                "section3": [
+                  {
+                    "image": "./images/pupper.jpg",
+                    "text": ["My pupper joining me on a trip."]
+                  },
+                  {
+                    "image": "./images/seattle.jpg",
+                    "text": ["Sight seeing in Seattle."]
+                  },
+                  {
+                    "image": "./images/vancouver.jpg",
+                    "text": ["Definitely have to return to Vancouver sometime."]
+                  }
+                ],
+                "section4": [
+                  {
+                    "title": "My Values",
+                    "text": [
+                      "I come from a family of immigrants; both my mom and dad came from Mexico in search of their own American Dream. Now, my parents are business-owners in a trucking company with a current fleet size of three and growing! Taking from my parents, I believe in hard work and the value of a person's word; even if a person has no money, they have inexpressible value in both their commitment to their work, and the strength of their word.",
+                      "I care deeply about all of those that are close to me, including my family, friends, and colleagues and will always try to help them just as they have helped me. The bonds that have been created throughout my years in college have become unbreakable and will be something I will never forget as we all split paths to follow our dreams."
+                    ]
+                  }
+                ],
+                "section5": [
+                  {
+                    "image": "./images/duck.jpg",
+                    "text": [
+                      "Celebrating the end of a tough semester at the local brewery, conveniently across the street from Campus."
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+}

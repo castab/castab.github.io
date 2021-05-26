@@ -1,0 +1,24 @@
+<div class="sticky-top">
+    <div class="jqslide" ng-if="vm.isNavbarActive();" ng-cloak>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:#ECEFF1">
+        <a class="navbar-brand" href="#!/menu" style="padding-bottom:7px;">Brayan J. Castaneda</a>
+        <button id="menuBurger" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown" ng-repeat="currentOrPreviousProjects in vm.projectData">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor:pointer;" ng-bind="currentOrPreviousProjects.title">
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a ng-repeat="project in currentOrPreviousProjects.projects" ng-click="vm.changePage(project);" data-toggle="collapse" class="dropdown-item" style="font-size:.7em;cursor:pointer;" ng-bind="project.project_name"></a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fab fa-github" style="cursor:pointer;font-size:1.4em;" href="https://github.com/castab/my-bootstrap4-website"></a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+    </div>
+</div>

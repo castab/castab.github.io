@@ -1,0 +1,75 @@
+body {
+    background-color:#263238;
+}
+.card {
+    background-color:#455A64;
+    color: #ECEFF1;
+}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+.jumbotron {
+    background-color:#CFD8DC;
+    color: #263238;
+}
+
+@media (min-width: 576px){
+ 
+
+ 
+}
+ 
+@media (min-width: 768px){
+ 
+
+ 
+}
+ 
+@media (min-width: 992px){
+ 
+
+ 
+}
+ 
+@media (min-width: 1200px){
+ 
+
+ 
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(60%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(60%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
